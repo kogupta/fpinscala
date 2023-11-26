@@ -65,4 +65,16 @@ object Scala3Syntax {
       case _: Exception =>
         'z'
   }
+
+
+
+  // val , lazy val
+
+  private val x: Int = 10 // private final int x = 10;
+
+  private lazy val y = 10; //
+
+  private def z(): Int = 10  //
+
+
 }
